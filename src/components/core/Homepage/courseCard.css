@@ -1,0 +1,17 @@
+.gradient-shadow {
+    position: relative;
+  }
+  
+  .gradient-shadow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(31, 162, 255, 0.3), rgba(18, 216, 250, 0.3), rgba(166, 255, 203, 0.3));
+    z-index: -1;
+    filter: blur(10px);
+    transform: translate(12px, 12px);
+    border-radius: inherit; /* Match the border radius if any */
+  }
