@@ -47,7 +47,7 @@ const userSchema=new Schema({
    type:mongoose.Schema.Types.ObjectId,
    ref:"Course",
   }],
-  images:{
+  image:{
     type:String,
     // required:true,
   },

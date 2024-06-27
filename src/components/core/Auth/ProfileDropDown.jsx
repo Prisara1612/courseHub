@@ -13,10 +13,13 @@ export default function ProfileDropdown() {
   const navigate = useNavigate()
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
+  
 
   useOnClickOutside(ref, () => setOpen(false))
 
   if (!user) return null
+  console.log(user); // Log the user object for debugging
+  console.log(user?.image); // Log the image URL for debugging
 
   return (
     <button className="relative" onClick={() => setOpen(true)}>

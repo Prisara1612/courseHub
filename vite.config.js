@@ -19,5 +19,7 @@ export default defineConfig({
   define: {
     'global': {},
   },
+  build: {
+    outDir: 'dist'  // Ensure the build output directory is set to 'dist'
+  }
 })
-
