@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Banner1 from "../assets/Images/banner1.mp4";
 // Component Imports
 import Footer from "../components/common/Footer";
-import ReviewSlider from "../components/common/ReviewSlide";
+import ReviewSlider from "../components/common/ReviewSlider";
 import Button from "../components/core/Homepage/Button";
 import CodeBlocks from "../components/core/Homepage/CodeBlocks";
 import ExploreMore from "../components/core/Homepage/ExploreMore";
